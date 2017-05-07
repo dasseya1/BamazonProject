@@ -32,13 +32,12 @@ var start = function() {
     } else {
       console.log("| ID | " + "Names |" + " Price |");
       for (var i = 0; i < rows.length; i++) {
-        console.log("| " + rows[i].item_id + " | " + rows[i].product_name + " | " + rows[i].price + " |");
+        console.log("| " + rows[i].item_id + " | " + rows[i].product_name + " | $" + rows[i].price + " |");
       }
     }
   });
   options();
 }
-
 
 var options = function() {
   connection.query(readTable, function(err, rows) {
