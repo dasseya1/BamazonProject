@@ -19,4 +19,12 @@ If not, the app logs a phrase like `Insufficient quantity!`, and then prevent th
 
 Else, if the store does have enough of the product, the customer's order will be fulfilled.
 
+```bash
+Screenshot of terminal
+```
 ![CLI](./bamazoncustom.jpg)
+
+```bash
+Screenshot of MySql database
+```
+![CLI](./mysql_data.jpg)
